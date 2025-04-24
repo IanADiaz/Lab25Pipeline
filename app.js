@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
 	res.send('Hello World');
 });
 
+app.get('/text', (req, res) => {
+	res.send('Testing');
+});
+
 PORT = 3000;
 
 app.listen(PORT,() => {
