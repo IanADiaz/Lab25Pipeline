@@ -11,7 +11,7 @@ app.get('/text', (req, res) => {
 	res.send('Testing');
 });
 
-PORT = 3000;
+PORT = 8604;
 
 app.listen(PORT,() => {
 	console.log(`Server running on http://localhost:${PORT}`);
